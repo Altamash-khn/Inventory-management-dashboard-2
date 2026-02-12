@@ -1,9 +1,10 @@
+import Login from "./Components/Login/Login";
+
 function App() {
   return (
-    <>
-      <h1>Hello, Dashboard</h1>
-      <p>Welcome to your new application.</p>
-    </>
+    <div className="bg-[#090b0f]">
+      <Login />
+    </div>
   );
 }
 
