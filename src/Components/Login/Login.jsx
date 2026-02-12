@@ -52,7 +52,7 @@ function Login() {
         >
           <input
             onChange={mailHandler}
-            type="mail"
+            type="email"
             name="email"
             value={email}
             placeholder="Mail"
