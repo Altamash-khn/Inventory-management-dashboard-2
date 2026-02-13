@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Signin from "./Components/Signin/Signin";
+import Login from "./Components/Login/Login";
 
 function App() {
   return (
@@ -9,14 +10,6 @@ function App() {
         <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
-import Login from "./Components/Login/Login";
-
-function App() {
-  return (
-    <div className="bg-[#090b0f]">
-      <Login />
-    </div>
   );
 }
-
 export default App;
